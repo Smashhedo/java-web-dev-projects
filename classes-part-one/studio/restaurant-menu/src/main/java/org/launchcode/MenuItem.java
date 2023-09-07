@@ -28,4 +28,14 @@ public class MenuItem {
     public void setNew(boolean aNew) {
         isNew = aNew;
     }
+
+    public boolean isNew() {
+        return isNew;
+    }
+
+    public String toString(){
+        System.out.print(this.price + this.description + this.category + this.isNew);
+    }
+
+
 }
